@@ -1,0 +1,23 @@
+app
+  common
+    error
+    dashboard
+    header
+    footer
+  auth
+    signin
+    signup
+  services
+  invest
+    fixeddeposite
+    mutual funds
+    share
+  view
+
+ng g c common\header --skipTests=true
+ng g c common\footer --skipTests=true
+ng g c common\error --skipTests=true
+ng g c common\dashboard --skipTests=true
+
+ng g c auth\signin --skipTests=true
+ng g c auth\signup --skipTests=true
