@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule }   from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,8 @@ import { ErrorComponent } from './common/error/error.component';
 import { DashboardComponent } from './common/dashboard/dashboard.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { SimpleTaxCalculatorComponent } from './feature/tax/simple-tax-calculator/simple-tax-calculator.component';
+
 
 @NgModule({
   declarations: [
@@ -19,10 +22,12 @@ import { SignupComponent } from './auth/signup/signup.component';
     ErrorComponent,
     DashboardComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    SimpleTaxCalculatorComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],
