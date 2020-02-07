@@ -25,3 +25,5 @@ ng g c auth\signup --skipTests=tru
 ng g c feature\tax\SimpleTaxCalculator --skipTests=true
 
 ng generate ng2-charts-schematics:line wealth\chart\line
+
+ng build --prod --output-path docs --base-href /wealth/
