@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "wealth",
+      "public": "dist/wealth",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

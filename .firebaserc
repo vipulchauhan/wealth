@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "wealth-it": {
+      "hosting": {
+        "wealth": [
+          "wealth-it"
+        ]
+      }
+    }
+  }
+}
