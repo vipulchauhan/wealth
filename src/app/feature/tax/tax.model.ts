@@ -26,5 +26,6 @@ export class Tax {
     const taxableIncome = grossIncome - this.deduction;
     this.taxform.push(new TaxForm(index++, 'Taxable Income', taxableIncome));
     console.log(taxableIncome);
+    const fist10 = 250000;
   }
 }
