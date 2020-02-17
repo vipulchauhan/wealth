@@ -12,6 +12,9 @@ import { DashboardComponent } from './common/dashboard/dashboard.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { SimpleTaxCalculatorComponent } from './feature/tax/simple-tax-calculator/simple-tax-calculator.component';
+import { InvestmentComponent } from './feature/tax/investment/investment.component';
+import { ExpenseComponent } from './feature/tax/expense/expense.component';
+import { ViewComponent } from './feature/tax/view/view.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { SimpleTaxCalculatorComponent } from './feature/tax/simple-tax-calculato
     DashboardComponent,
     SigninComponent,
     SignupComponent,
-    SimpleTaxCalculatorComponent
+    SimpleTaxCalculatorComponent,
+    InvestmentComponent,
+    ExpenseComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,

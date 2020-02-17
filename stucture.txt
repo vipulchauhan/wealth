@@ -23,6 +23,9 @@ ng g c auth\signin --skipTests=true
 ng g c auth\signup --skipTests=tru
 
 ng g c feature\tax\SimpleTaxCalculator --skipTests=true
+ng g c feature\tax\investment --skipTests=true
+ng g c feature\tax\expense --skipTests=true
+ng g c feature\tax\view --skipTests=true
 
 ng generate ng2-charts-schematics:line wealth\chart\line
 
