@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule }   from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,7 +15,6 @@ import { SimpleTaxCalculatorComponent } from './feature/tax/simple-tax-calculato
 import { InvestmentComponent } from './feature/tax/investment/investment.component';
 import { ExpenseComponent } from './feature/tax/expense/expense.component';
 import { ViewComponent } from './feature/tax/view/view.component';
-
 
 @NgModule({
   declarations: [
@@ -34,10 +33,11 @@ import { ViewComponent } from './feature/tax/view/view.component';
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
